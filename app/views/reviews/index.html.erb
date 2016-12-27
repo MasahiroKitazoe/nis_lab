@@ -1,0 +1,14 @@
+
+<iframe src="/pdfjs/web/viewer.html?file=script.pdf" style="border: 0" width="50%" height="600" frameborder="0" scrolling="no"></iframe>
+
+<h1>コメント一覧</h1>
+
+<%= link_to 'コメントを投稿する', new_review_path %>
+
+<br>
+<hr>
+
+<% @reviews.each do |review| %>
+  <%= review.comment %>
+  <hr>
+<% end %>

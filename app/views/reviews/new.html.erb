@@ -1,0 +1,20 @@
+<h1>脚本にコメントする</h1>
+
+<p>
+  脚本に関して、ご意見ご要望をご自由にお書きください！！あなたの提案がそのまま採用されるかも！？
+</p>
+
+<%= form_for @review do |f| %>
+  <%= f.text_field :comment, placeholder: "コメントを記入してください" %>
+
+<% if current_user.nickname.blank? %>
+  <%= f.fields_for @user do |user| %>
+    <%= user.label :ニックネーム %>
+    <%= user.text_field :nickname, placeholder: "ニックネームを登録してください" %>
+  <% end %>
+<% end %>
+
+  <%= f.submit "コメントを投稿する" %>
+<% end %>
+
+<%= link_to '戻る', reviews_path %>
