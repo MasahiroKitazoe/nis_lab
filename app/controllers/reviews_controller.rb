@@ -17,3 +17,4 @@ class ReviewsController < ApplicationController
   def create_params
     params.require(:review).permit(:comment)
   end
+end
