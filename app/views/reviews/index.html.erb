@@ -12,5 +12,11 @@
 <% @reviews.each do |review| %>
   <h4><b><%= review.nickname %></b></h4>
   <%= review.comment %>
+  <br>
+  <%= link_to 'このコメントに返信する', new_review_reply_path(review_id: review.id) %>
+    <% review.replies.each do |reply| %>
+      <h4><b><%= reply.nickname %></b></h4>
+      <%= reply.comment %>
+    <% end %>
   <hr>
 <% end %>

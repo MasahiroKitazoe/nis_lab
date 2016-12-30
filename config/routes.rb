@@ -11,7 +11,9 @@ Rails.application.routes.draw do
 
   get '/script' => 'reviews#script'
 
-  resources :reviews
+  resources :reviews, shallow: true do
+    resources :replies
+  end
 
   resources :pages, :only => :index
 
