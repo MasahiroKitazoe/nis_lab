@@ -1,20 +1,25 @@
-<h1>脚本にコメントする</h1>
+<section class="bg-primary" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <h2 class="section-heading">コメントを書く</h2>
+                <hr class="light">
+                <p class="text-faded">脚本についてのコメントをお聞かせください！<br>あなたの意見がそのまま反映されるかもしれません</p>
+                <a href="/script" class="btn btn-default btn-xl" target="_blank">脚本を別タブで開く</a>
+            </div>
+        </div>
+    </div>
+</section>
 
-<p>
-  脚本に関して、ご意見ご要望をご自由にお書きください！！あなたの提案がそのまま採用されるかも！？
-</p>
 
 <%= form_for @review do |f| %>
+  <%= f.label :ニックネーム %>
+  <%= f.text_field :nickname, placeholder: "ニックネームを記入してください" %>
+  <br>
+  <%= f.label :コメント %>
   <%= f.text_field :comment, placeholder: "コメントを記入してください" %>
-
-<% if current_user.nickname.blank? %>
-  <%= f.fields_for @user do |user| %>
-    <%= user.label :ニックネーム %>
-    <%= user.text_field :nickname, placeholder: "ニックネームを登録してください" %>
-  <% end %>
-<% end %>
-
-  <%= f.submit "コメントを投稿する" %>
+  <br>
+  <%= f.submit "投稿する" %>
 <% end %>
 
 <%= link_to '戻る', reviews_path %>
