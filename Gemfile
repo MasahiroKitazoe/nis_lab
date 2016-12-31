@@ -56,10 +56,11 @@ group :development do
 
   gem 'twitter-bootstrap-rails'
 
+  gem 'responders', '~> 2.0'
+
 group :production, :staging do
   gem 'rails_12factor'
-end
-
   gem 'pg'
+end
 
 end
