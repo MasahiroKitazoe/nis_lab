@@ -46,13 +46,20 @@ group :development do
 
   gem 'mechanize'
 
-    gem 'pry-rails'
+  gem 'pry-rails'
 
-    gem 'devise'
+  gem 'devise'
 
-    gem 'therubyracer'
+  gem 'therubyracer'
 
-    gem 'less-rails'
+  gem 'less-rails'
 
-    gem 'twitter-bootstrap-rails'
+  gem 'twitter-bootstrap-rails'
+
+group :production, :staging do
+  gem 'rails_12factor'
+end
+
+  gem 'pg'
+
 end
