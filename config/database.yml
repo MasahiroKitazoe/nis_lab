@@ -25,7 +25,13 @@ development:
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
 test:
-  <<: *default
+  adapter: postgresql
+  encoding: utf8
+  database: test_store_test
+  pool: 5
+  username: mike
+  password: mike
+  host: 127.0.0.1
   database: nis_lab_test
 
 # As with config/secrets.yml, you never want to store sensitive information,
@@ -48,7 +54,11 @@ test:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
 production:
-  <<: *default
-  database: nis_lab_production
-  username: nis_lab
+  adapter: postgresql
+  encoding: utf8
+  database: test_store_dev
+  pool: 5
+  username: mike
+  password: mike
+  host: 127.0.0.1
   password: <%= ENV['NIS_LAB_DATABASE_PASSWORD'] %>

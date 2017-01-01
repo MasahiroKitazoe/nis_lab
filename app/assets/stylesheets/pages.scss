@@ -10,3 +10,42 @@
   padding-top: 50px;
   background-color: #f05f40;
 }
+
+.header-content{
+  .header-content-inner{
+    h1{
+      font-size: calc(200.5% + 6 * (100vw - 320px) / 600);
+    }
+    .copy{
+      font-size: calc(100.5% + 6 * (100vw - 320px) / 600);
+    }
+  }
+}
+
+.bg-primary{
+  .container{
+    .row{
+      .text-center{
+        h2{
+          font-size: calc(175.5% + 6 * (100vw - 320px) / 600);
+        }
+        .text-faded{
+          font-size: calc(90.5% + 4 * (100vw - 320px) / 400);
+        }
+      }
+    }
+  }
+}
+
+.bg-dark{
+  .text-center{
+    .call-to-action{
+      h2{
+        font-size: calc(175.5% + 6 * (100vw - 320px) / 600);
+      }
+      .text-faded{
+          font-size: calc(90.5% + 6 * (100vw - 320px) / 600);
+        }
+    }
+  }
+}
