@@ -1,10 +1,23 @@
+<header>
+    <div class="header-content">
+        <div class="header-content-inner">
+            <h1>script</h1>
+            <hr>
+            <p>旗揚げ公演の脚本を公開中！<br>ご意見ご感想をコメントできます！</p>
+        </div>
+    </div>
+</header>
+
+
 <div class="jumbotron" id="script_container">
 <iframe src="/pdfjs/web/viewer.html?file=script.pdf" style="border: 0" width="100%" height="550px" min-height="360px" frameborder="0" scrolling="no"></iframe>
 </div>
 
 <h1>コメント一覧</h1>
 
-<%= link_to 'コメントを投稿する', new_review_path %>
+<div style="text-align: center;">
+<a href="/reviews/new" class="btn btn-primary btn-xl">コメントを投稿する</a>
+</div>
 
 <br>
 <hr>
