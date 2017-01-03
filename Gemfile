@@ -58,6 +58,8 @@ group :development do
 
   gem 'responders', '~> 2.0'
 
+  gem 'activesupport'
+
 group :production, :staging do
   gem 'rails_12factor'
   gem 'pg'
