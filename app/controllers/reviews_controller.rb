@@ -7,9 +7,6 @@ class ReviewsController < ApplicationController
     @review = Review.new
   end
 
-  def script
-  end
-
   def download
     file_name = "script.pdf"
     filepath = Rails.root.join('public',file_name)

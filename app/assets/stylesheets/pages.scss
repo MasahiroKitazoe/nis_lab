@@ -41,6 +41,9 @@
       h2{
         font-size: calc(175.5% + 6 * (100vw - 320px) / 600);
       }
+      h4{
+        font-size: calc(155.5% + 6 * (100vw - 320px) / 600);
+      }
       .text-faded{
           font-size: calc(90.5% + 6 * (100vw - 320px) / 600);
         }
@@ -50,11 +53,51 @@
 
 #image_container{
   background-color: #f05f40;
-  margin-bottom: 20px;
-  padding: 0px;
+  padding-top: 50px;
+  padding-bottom: 0px;
   img{
-    width:100%;
+    width:50%;
     max-width: 100%;
     height: auto;
   }
+}
+
+#theatre{
+  background-image: url(/images/stage4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#story{
+  background-image: url(/images/6.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#bow{
+  background-image: url(/images/bow.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#sample{
+  background-image: url(/images/stage.jpg);
+}
+
+
+#image{
+  background-image: url(/images/stage.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#flier{
+  background-image: url(/images/flierA.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
