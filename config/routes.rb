@@ -11,6 +11,8 @@ Rails.application.routes.draw do
 
   get '/script' => 'reviews#script'
 
+  get '/reviews/download' => 'reviews#download'
+
   resources :reviews, shallow: true do
     resources :replies
   end

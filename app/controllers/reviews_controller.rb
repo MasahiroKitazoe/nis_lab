@@ -10,6 +10,12 @@ class ReviewsController < ApplicationController
   def script
   end
 
+  def download
+    file_name = "script.pdf"
+    filepath = Rails.root.join('public',file_name)
+    send_file(filepath, :filename => file_name, :type => "application/pdf", :disposition => 'attachment')
+  end
+
   def create
     Review.create(create_params)
     redirect_to reviews_url, notice: '投稿が完了しました'
