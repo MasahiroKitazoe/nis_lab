@@ -1201,7 +1201,7 @@ canvas {
   right: 0;
   bottom: 0;
   color: #000;
-  font-family: sans-serif;
+  font-family: 'Noto Sans Japanese', sans-serif;
   overflow: hidden;
 }
 
@@ -1345,7 +1345,7 @@ canvas {
   opacity: 0.3;
 }
 #PDFBug .stats {
-  font-family: courier;
+  font-family: 'Noto Sans Japanese', courier;
   font-size: 10px;
   white-space: pre;
 }

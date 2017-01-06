@@ -1,3 +1,15 @@
+@font-face {
+  font-family: "Noto Sans Japanese";
+  src: font-url("NotoSansJP-Black.otf");
+  src: font-url("NotoSansJP-Bold.otf");
+  src: font-url("NotoSansJP-DemiLight.otf");
+  src: font-url("NotoSansJP-Light.otf");
+  src: font-url("NotoSansJP-Medium.otf");
+  src: font-url("NotoSansJP-Regular.otf");
+  src: font-url("NotoSansJP-Thin.otf");
+  font-weight: normal;
+  font-style: normal;
+}
 
 #gray{
   background-color: gray;
