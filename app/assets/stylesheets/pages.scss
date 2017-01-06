@@ -63,14 +63,14 @@
 }
 
 #theatre{
-  background-image: url(/images/stage4.jpg);
+  background-image: url(/images/theatre.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 #story{
-  background-image: url(/images/6.jpg);
+  background-image: url(/images/hammer.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -83,8 +83,11 @@
   background-position: center;
 }
 
-#sample{
-  background-image: url(/images/stage.jpg);
+#science{
+  background-image: url(/images/sample5.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 
@@ -100,4 +103,41 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+#paper{
+  background-image: url(/images/sample.jpg);
+}
+
+#flier{
+  background-image: url(/images/flierA.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 50%;
+  min-height: 350px;
+  max-height: 450px;
+  float: left;
+}
+
+#people1{
+  background-image: url(/images/people.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#people{
+  background-image: url(/images/people.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 50%;
+  max-height: 450px;
+  min-height: 350px;
+  float: right;
+}
+
+#member{
+  clear: both;
 }
