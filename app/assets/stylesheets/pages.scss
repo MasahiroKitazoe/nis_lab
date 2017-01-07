@@ -11,6 +11,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "smart-font";
+  src: font-url("smart-font.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
 #gray{
   background-color: gray;
 }
@@ -152,4 +159,11 @@
 
 #member{
   clear: both;
+}
+
+#backstage{
+  background-image: url(/images/backstage.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
