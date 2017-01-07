@@ -50,6 +50,9 @@ header{
 }
 
 .bg-primary{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   .container{
     .row{
       .text-center{
@@ -65,6 +68,9 @@ header{
 }
 
 .bg-dark{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   .text-center{
     .call-to-action{
       h2{
@@ -94,106 +100,63 @@ header{
   }
 }
 
-#cover{
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
 #theatre{
   background-image: url(/images/theatre.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 #story{
   background-image: url(/images/hammer.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
-#bow{
-  background-image: url(/images/bow.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
+
 
 #block{
   background-image: url(/images/block.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 #science{
   background-image: url(/images/sample5.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 
 #image{
   background-image: url(/images/stage.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 #flier{
   background-image: url(/images/FlierA.jpg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 #glass{
   background-image: url(/images/glass.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 #lamp{
   background-image: url(/images/lamp.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 #paper{
   background-image: url(/images/paper.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 #flier{
   background-image: url(/images/FlierA.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
   width: 50%;
   min-height: 350px;
   max-height: 450px;
   float: left;
 }
 
+#old-paper{
+  background-image: url(/images/old-paper.jpg);
+}
+
 #people1{
   background-image: url(/images/people.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 #people{
   background-image: url(/images/people.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
   width: 50%;
   max-height: 450px;
   min-height: 350px;
@@ -206,7 +169,4 @@ header{
 
 #backstage{
   background-image: url(/images/backstage.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
