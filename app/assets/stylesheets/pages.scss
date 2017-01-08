@@ -64,6 +64,9 @@ header{
         h2{
           font-size: calc(175.5% + 6 * (100vw - 320px) / 600);
         }
+        h3{
+          font-size: calc(155.5% + 6 * (100vw - 320px) / 600);
+        }
         .text-faded{
           font-size: calc(90.5% + 4 * (100vw - 320px) / 400);
         }
@@ -125,6 +128,10 @@ header{
   background-image: url(/images/audience.jpg);
 }
 
+#audience2{
+  background-image: url(/images/audience2.jpg);
+}
+
 #blur{
   background-image: url(/images/blur.jpg);
 }
@@ -135,6 +142,10 @@ header{
 
 #bulb{
   background-image: url(/images/bulb.png);
+}
+
+#crowd{
+  background-image: url(/images/crowd.jpg);
 }
 
 #image{
@@ -207,4 +218,8 @@ header{
 
 #staging{
   background-image: url(/images/staging.jpg);
+}
+
+#stage{
+  background-image: url(/images/stage.jpg);
 }
