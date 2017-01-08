@@ -304,7 +304,19 @@ header .header-content .header-content-inner p {
     font-size: 18px;
 }
 
-.portfolio-box:hover .portfolio-box-caption {
+/*.portfolio-box:hover .portfolio-box-caption {
+    opacity: 1;
+}*/
+
+#ono-caption{
+    opacity: 1;
+}
+
+#otsu-caption{
+    opacity: 1;
+}
+
+#kitazoe-caption{
     opacity: 1;
 }
 
