@@ -32,6 +32,11 @@ header{
   background-color: gray;
 }
 
+#white{
+  background-color: white;
+  color: #393939;
+}
+
 #script_container{
   min-height: 360px;
   padding-top: 50px;
@@ -108,23 +113,48 @@ header{
   background-image: url(/images/hammer.jpg);
 }
 
+#abstract{
+  background-image: url(/images/abstract.jpg);
+}
 
+#art{
+  background-image: url(/images/art.jpg);
+}
+
+#audience{
+  background-image: url(/images/audience.jpg);
+}
+
+#blur{
+  background-image: url(/images/blur.jpg);
+}
 
 #block{
   background-image: url(/images/block.jpg);
 }
 
-#science{
-  background-image: url(/images/sample5.jpg);
+#bulb{
+  background-image: url(/images/bulb.png);
 }
-
 
 #image{
   background-image: url(/images/stage.jpg);
 }
 
+#film{
+  background-image: url(/images/film.jpg);
+}
+
 #flier{
   background-image: url(/images/FlierA.jpg);
+}
+
+#flier{
+  background-image: url(/images/FlierA.jpg);
+  width: 50%;
+  min-height: 350px;
+  max-height: 450px;
+  float: left;
 }
 
 #glass{
@@ -135,20 +165,20 @@ header{
   background-image: url(/images/lamp.jpg);
 }
 
+#play-stone{
+  background-image: url(/images/play-stone.jpg);
+}
+
 #paper{
   background-image: url(/images/paper.jpg);
 }
 
-#film{
-  background-image: url(/images/film.jpg);
+#science{
+  background-image: url(/images/sample5.jpg);
 }
 
-#flier{
-  background-image: url(/images/FlierA.jpg);
-  width: 50%;
-  min-height: 350px;
-  max-height: 450px;
-  float: left;
+#light-bulb{
+  background-image: url(/images/light-bulb.jpg);
 }
 
 #old-paper{
@@ -173,4 +203,8 @@ header{
 
 #backstage{
   background-image: url(/images/backstage.jpg);
+}
+
+#staging{
+  background-image: url(/images/staging.jpg);
 }
