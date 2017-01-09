@@ -280,20 +280,9 @@ header .header-content .header-content-inner p {
     transition: all .35s;
 }
 
-
-@media(min-width: 768px;){
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
-    position: relative;
+    position: absolute;
     top: 50%;
-    width: 100%;
-    text-align: center;
-    transform: translateY(-50%);
-}
-}
-
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
-    position: relative;
-    top: 20%;
     width: 100%;
     text-align: center;
     transform: translateY(-50%);
