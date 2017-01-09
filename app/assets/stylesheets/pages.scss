@@ -66,7 +66,7 @@ header{
     .row{
       .text-center{
         h2{
-          font-size: calc(175.5% + 6 * (100vw - 320px) / 600);
+          font-size: calc(170.5% + 6 * (100vw - 320px) / 600);
         }
         h3{
           font-size: calc(155.5% + 6 * (100vw - 320px) / 600);
@@ -102,8 +102,7 @@ header{
 }
 
 #image_container{
-  background-color: #f05f40;
-  padding-top: 50px;
+  padding-top: 0px;
   padding-bottom: 0px;
   img{
     width:50%;
@@ -113,7 +112,7 @@ header{
 }
 
 #theatre{
-  background-image: url(/images/theatre.jpg);
+  background-image: url(/images/seats.jpg);
 }
 
 #story{
