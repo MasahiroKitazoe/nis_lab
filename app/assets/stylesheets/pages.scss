@@ -30,6 +30,10 @@ html{
   font-size: calc(112.5% + 0.25vw);
 }
 
+body{
+  min-width: 960;
+}
+
 header{
   .header-content{
     .header-content-inner{
