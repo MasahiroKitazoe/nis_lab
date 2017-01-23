@@ -1,0 +1,202 @@
+Searching 4965 files for "font-family: 'Noto Sans Japanese'"
+
+/Users/masahiro/projects/nis_lab/app/assets/stylesheets/creative.css:
+   88  .navbar-default .navbar-header .navbar-brand {
+   89      text-transform: uppercase;
+   90:     font-family: 'Noto Sans Japanese', 'Open Sans','Helvetica Neue',Arial,sans-serif;
+   91      font-weight: 700;
+   92      color: #f05f40;
+   ..
+  292  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+  293      padding: 0 15px;
+  294:     font-family: 'Noto Sans Japanese', 'Open Sans','Helvetica Neue',Arial,sans-serif;
+  295  }
+  296  
+  ...
+  454      border-radius: 300px;
+  455      text-transform: uppercase;
+  456:     font-family: 'Noto Sans Japanese', 'Open Sans','Helvetica Neue',Arial,sans-serif;
+  457      font-weight: 700;
+  458  }
+  ...
+  489  
+  490  @font-face {
+  491:   font-family: 'Noto Sans Japanese', 'Glyphicons Halflings';
+  492    src: url('/assets/glyphicons-halflings-regular.eot');
+  493    src: url('/assets/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('/assets/glyphicons-halflings-regular.woff') format('woff'), url('/assets/glyphicons-halflings-regular.ttf') format('truetype'), url('/assets/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+
+/Users/masahiro/projects/nis_lab/public/404.html:
+    9      color: #2E2F30;
+   10      text-align: center;
+   11:     font-family: 'Noto Sans Japanese', arial, sans-serif;
+   12      margin: 0;
+   13    }
+
+/Users/masahiro/projects/nis_lab/public/422.html:
+    9      color: #2E2F30;
+   10      text-align: center;
+   11:     font-family: 'Noto Sans Japanese', arial, sans-serif;
+   12      margin: 0;
+   13    }
+
+/Users/masahiro/projects/nis_lab/public/500.html:
+    9      color: #2E2F30;
+   10      text-align: center;
+   11:     font-family: 'Noto Sans Japanese', arial, sans-serif;
+   12      margin: 0;
+   13    }
+
+/Users/masahiro/projects/nis_lab/public/pdfjs/web/viewer.css:
+ 1202    bottom: 0;
+ 1203    color: #000;
+ 1204:   font-family: 'Noto Sans Japanese', sans-serif;
+ 1205    overflow: hidden;
+ 1206  }
+ ....
+ 1346  }
+ 1347  #PDFBug .stats {
+ 1348:   font-family: 'Noto Sans Japanese', courier;
+ 1349    font-size: 10px;
+ 1350    white-space: pre;
+
+/Users/masahiro/projects/nis_lab/tmp/cache/assets/sprockets/v3.0/02/02J-EpauKnwPHWNxGY7wt_9l73Y5KMBAziU-C04OmUQ.cache:
+    <binary>
+
+/Users/masahiro/projects/nis_lab/tmp/cache/assets/sprockets/v3.0/7N/7nKS__0x9wNC3OKejsC-i9xOrQ3vVnRkyqi4CdW6j6o.cache:
+    <binary>
+
+/Users/masahiro/projects/nis_lab/tmp/cache/assets/sprockets/v3.0/7w/7Wdhrfr8SG55qQ7yjLtnkbEK7SAD17GdvCG4BDp9BAM.cache:
+    <binary>
+
+/Users/masahiro/projects/nis_lab/tmp/cache/assets/sprockets/v3.0/AV/AVOxiykYYW0B7eRUrHbTtfKgssN9oOquiGSuC9Rll1Y.cache:
+    <binary>
+
+/Users/masahiro/projects/nis_lab/tmp/cache/assets/sprockets/v3.0/bs/bsLufmfNgbx0euCFWSKL1OEvYx5iW3Ro49cy0vcwBSs.cache:
+    <binary>
+
+/Users/masahiro/projects/nis_lab/tmp/cache/assets/sprockets/v3.0/ci/ci2orga2vSAvoR1oLfgxOamHlPUkygpwwTmdTJRggOU.cache:
+    <binary>
+
+/Users/masahiro/projects/nis_lab/tmp/cache/assets/sprockets/v3.0/CQ/CquwyW3AseWOAJiZTy7Osm_Aitax4iqi0r1zLE5PlAY.cache:
+    <binary>
+
+/Users/masahiro/projects/nis_lab/tmp/cache/assets/sprockets/v3.0/FV/fvIJbUABy0DCqMuZnzdMZhefn9vGj4UkxDCJA_GPyyE.cache:
+    <binary>
+
+/Users/masahiro/projects/nis_lab/tmp/cache/assets/sprockets/v3.0/Gg/ggXc6RuMrb8sBhzJjIJ1oV5Hsfi7p3ukh5lrg4DM7Mo.cache:
+    <binary>
+
+/Users/masahiro/projects/nis_lab/tmp/cache/assets/sprockets/v3.0/gi/giYAkoeo-6OSEs7mfQv7NxbQzCrzAlv9gqHFbjwTm9Q.cache:
+    <binary>
+
+/Users/masahiro/projects/nis_lab/tmp/cache/assets/sprockets/v3.0/gj/gJMl7G-JTqWOR_0xC3u8XOiQfK4VQklu8WWceVMUYNI.cache:
+    <binary>
+
+/Users/masahiro/projects/nis_lab/tmp/cache/assets/sprockets/v3.0/hr/hRfPQSkBNv5LT4v5PrN0mijGpCUKJrmsTYlvgne0HTY.cache:
+    <binary>
+
+/Users/masahiro/projects/nis_lab/tmp/cache/assets/sprockets/v3.0/Ic/iCPrNK5DD01F7umMTIme-uLUv3odJ3tRguY1WfsqYkg.cache:
+    <binary>
+
+/Users/masahiro/projects/nis_lab/tmp/cache/assets/sprockets/v3.0/lP/lP2SGoTLbQps-yxiLbDTxY6DJiThFLZorYu_KcPRgQQ.cache:
+    <binary>
+
+/Users/masahiro/projects/nis_lab/tmp/cache/assets/sprockets/v3.0/QT/QTlbhhlw8WItWf88GfrymbIXBuWGlmHqgZfSXaB6dgY.cache:
+    <binary>
+
+/Users/masahiro/projects/nis_lab/tmp/cache/assets/sprockets/v3.0/vf/vFtrFYeXeUeOBHbVQslimJifDKDiMcprgrJ4mfyNisA.cache:
+    <binary>
+
+/Users/masahiro/projects/nis_lab/vendor/assets/font-awesome/css/font-awesome.css:
+    6   * -------------------------- */
+    7  @font-face {
+    8:   font-family: 'Noto Sans Japanese', 'FontAwesome';
+    9    src: url('../fonts/fontawesome-webfont.eot?v=4.3.0');
+   10    src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.3.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.3.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.3.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.3.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');
+
+/Users/masahiro/projects/nis_lab/vendor/assets/font-awesome/less/path.less:
+    3  
+    4  @font-face {
+    5:   font-family: 'Noto Sans Japanese', 'FontAwesome';
+    6    src: url('@{fa-font-path}/fontawesome-webfont.eot?v=@{fa-version}');
+    7    src: url('@{fa-font-path}/fontawesome-webfont.eot?#iefix&v=@{fa-version}') format('embedded-opentype'),
+
+/Users/masahiro/projects/nis_lab/vendor/assets/font-awesome/scss/_path.scss:
+    3  
+    4  @font-face {
+    5:   font-family: 'Noto Sans Japanese', 'FontAwesome';
+    6    src: url('#{$fa-font-path}/fontawesome-webfont.eot?v=#{$fa-version}');
+    7    src: url('#{$fa-font-path}/fontawesome-webfont.eot?#iefix&v=#{$fa-version}') format('embedded-opentype'),
+
+/Users/masahiro/projects/nis_lab/vendor/assets/stylesheets/bootstrap.css:
+  106  pre,
+  107  samp {
+  108:   font-family: 'Noto Sans Japanese', monospace, monospace;
+  109    font-size: 1em;
+  110  }
+  ...
+  262  }
+  263  @font-face {
+  264:   font-family: 'Noto Sans Japanese', 'Glyphicons Halflings';
+  265  
+  266    src: url('../fonts/glyphicons-halflings-regular.eot');
+  ...
+  271    top: 1px;
+  272    display: inline-block;
+  273:   font-family: 'Noto Sans Japanese', 'Glyphicons Halflings';
+  274    font-style: normal;
+  275    font-weight: normal;
+  ...
+ 1083  }
+ 1084  body {
+ 1085:   font-family: 'Noto Sans Japanese', "Helvetica Neue", Helvetica, Arial, sans-serif;
+ 1086    font-size: 14px;
+ 1087    line-height: 1.42857143;
+ ....
+ 1093  select,
+ 1094  textarea {
+ 1095:   font-family: 'Noto Sans Japanese', inherit;
+ 1096    font-size: inherit;
+ 1097    line-height: inherit;
+ ....
+ 1185  .h5,
+ 1186  .h6 {
+ 1187:   font-family: 'Noto Sans Japanese', inherit;
+ 1188    font-weight: 500;
+ 1189    line-height: 1.1;
+ ....
+ 1533  pre,
+ 1534  samp {
+ 1535:   font-family: 'Noto Sans Japanese', Menlo, Monaco, Consolas, "Courier New", monospace;
+ 1536  }
+ 1537  code {
+ ....
+ 5994    z-index: 1070;
+ 5995    display: block;
+ 5996:   font-family: 'Noto Sans Japanese', "Helvetica Neue", Helvetica, Arial, sans-serif;
+ 5997    font-size: 12px;
+ 5998    font-style: normal;
+ ....
+ 6113    max-width: 276px;
+ 6114    padding: 1px;
+ 6115:   font-family: 'Noto Sans Japanese', "Helvetica Neue", Helvetica, Arial, sans-serif;
+ 6116    font-size: 14px;
+ 6117    font-style: normal;
+ ....
+ 6382    width: 20px;
+ 6383    height: 20px;
+ 6384:   font-family: 'Noto Sans Japanese', serif;
+ 6385    line-height: 1;
+ 6386  }
+
+/Users/masahiro/projects/nis_lab/vendor/assets/stylesheets/mixins.less:
+   56  
+   57  .sans-serif-font() {
+   58: 	font-family: 'Noto Sans Japanese', 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+   59  }
+   60  
+   61  .serif-font() {
+   62: 	font-family: 'Noto Sans Japanese', 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+   63  }
+
+40 matches across 26 files

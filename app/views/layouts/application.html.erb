@@ -5,7 +5,7 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
-  <meta  name="viewport" content="width=device-width, user-scalable=yes,">
+  <meta  name="viewport" content="width=device-width, user-scalable=no,">
 </head>
 <body id="page-top">
 
@@ -29,10 +29,10 @@
                     <a class="page-scroll" href="/about" data-turbolinks="false">現代サムシング研究所とは</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="/project">クラウドファンディング情報</a>
+                    <a class="page-scroll" href="/stage">公演情報</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="/stage">公演情報</a>
+                    <a class="page-scroll" href="/project">クラウドファンディング</a>
                 </li>
                 <!-- <li>
                     <a class="page-scroll" href="/reviews">２月公演の脚本をみる</a>
@@ -46,5 +46,8 @@
 
 <%= yield %>
 
+<footer style="width: 100%; height: 70px; margin-bottom: 0px; background-color: #5E6060;">
+    <p style="color: white; top: 0; bottom: 0; margin: auto; font-family: "Hiragino Kaku Gothic Pro";>Copyright(C) 2016 Laboratory of modern something. All Rights Reserved.</p>
+</footer>
 </body>
 </html>

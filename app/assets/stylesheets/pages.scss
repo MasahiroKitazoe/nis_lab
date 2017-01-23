@@ -12,20 +12,22 @@
 }
 
 @font-face {
+  font-family: "Futura-medium-italic";
+  src: font-url("ufonts.com_futura-medium-italic.ttf");
+  src: font-url("ufonts.com_futura_medium_italic.eot");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: "smart-font";
   src: font-url("smart-font.otf");
   font-weight: normal;
   font-style: normal;
 }
 
-body{
-  padding-top: 50px;
-}
-
-@media(min-width:768px){
-  body{
-    padding-top: 0px;
-  }
+html{
+  font-size: calc(112.5% + 0.25vw);
 }
 
 header{
@@ -35,6 +37,61 @@ header{
         font-size: calc(195.5% + 6 * (100vw - 320px) / 600);
       }
     }
+  }
+}
+
+.top-header{
+  background: url(/images/header_simple.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  .header-section-title{
+    float: right;
+    text-align: right;
+    margin-right: 1rem;
+    h1{
+      font-family: "Futura-medium-italic";
+      font-size: 3vw;
+      a{
+        mix-blend-mode: overlay;
+        color: white;
+      }
+    }
+  }
+}
+
+@media(max-width:768px){
+  .top-header{
+    min-height: 500px;
+    .header-section-title{
+      margin-right: 0;
+    }
+  }
+}
+
+.jumbotron{
+  margin: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  text-align: center;
+  color: white;
+  padding-top: 1px;
+
+  .section-title{
+    font-family: "Futura-medium-italic";
+    font-size: 3rem;
+  mix-blend-mode: overlay;
+  }
+
+  .copy{
+    font-size: 1rem;
+    line-height: 2em;
+  }
+
+  .more{
+    width: 5rem;
+    height: auto;
   }
 }
 
@@ -247,4 +304,8 @@ header{
 
 #stage{
   background-image: url(/images/stage.jpg);
+}
+
+#copy{
+  line-height: 2.5em;
 }
