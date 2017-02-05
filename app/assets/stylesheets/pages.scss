@@ -31,7 +31,7 @@ html{
 }
 
 body{
-  min-width: 960;
+  min-width: 1263px;
 }
 
 header{
@@ -77,7 +77,7 @@ header{
   margin: 0;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
   text-align: center;
   color: white;
   padding-top: 1px;
@@ -85,7 +85,13 @@ header{
   .section-title{
     font-family: "Futura-medium-italic";
     font-size: 3rem;
-  mix-blend-mode: overlay;
+    mix-blend-mode: overlay;
+  }
+
+  h1{
+    font-family: "Futura-medium-italic";
+    font-size: 3rem;
+    mix-blend-mode: overlay;
   }
 
   .copy{
