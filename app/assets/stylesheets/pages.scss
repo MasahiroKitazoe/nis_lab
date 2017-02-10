@@ -98,6 +98,18 @@ header{
     mix-blend-mode: overlay;
   }
 
+  h2{
+    font-family: "Futura-medium-italic";
+    font-size: 2rem;
+    mix-blend-mode: overlay;
+  }
+
+  h3{
+    font-family: "Futura-medium-italic";
+    font-size: 1.3rem;
+    mix-blend-mode: overlay;
+  }
+
   .copy{
     font-size: 1rem;
     line-height: 2em;
@@ -107,6 +119,10 @@ header{
     width: 5rem;
     height: auto;
   }
+}
+
+.title-colored{
+  color: #DC143C;
 }
 
 .cast_photos{
